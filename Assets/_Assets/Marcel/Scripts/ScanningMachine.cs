@@ -11,6 +11,8 @@ public class ScanningMachine : MonoBehaviour
     public Scannable[] scannables;
     public Presentable[] presentables;
 
+    public GallonDisplay gDisplay;
+
     public int currentScannable = 0;
 
     public UnityEvent EventOnScan;
@@ -49,6 +51,7 @@ public class ScanningMachine : MonoBehaviour
 
         scanCollider.gameObject.SetActive(true);
         bagCollider.gameObject.SetActive(false);
+        gDisplay.ClearGallons();
     }
 
     public void NextItem()
@@ -76,11 +79,13 @@ public class ScanningMachine : MonoBehaviour
     public void Scan()
     {
         EventOnScan.Invoke();
+        gDisplay.SetGallons(scannables[currentScannable].gallonsOfWater);
         BeginPresentation();
     }
 
     public void Bag()
     {
+        gDisplay.ClearGallons();
         EventOnBag.Invoke();
         NextItem();
     }
