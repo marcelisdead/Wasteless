@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6089845609238035556}
   - component: {fileID: 5453599734267201317}
+  - component: {fileID: -4422904385596505583}
   - component: {fileID: 1420858240679956676}
   - component: {fileID: 312681028274659965}
   m_Layer: 0
@@ -54,6 +55,18 @@ MonoBehaviour:
   installationRoutineCheckpoint:
     _installationRoutineId: 
     _installationVariants: []
+--- !u!114 &-4422904385596505583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2941444279446897435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fdc7f3042acc5440be92066f8aae9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &1420858240679956676
 MeshFilter:
   m_ObjectHideFlags: 0
