@@ -14,8 +14,20 @@ public class GroundCollisionHandler : MonoBehaviour
         // Check if the collided object is tagged as "Product"
         if (collision.gameObject.CompareTag("Product"))
         {
+            var scanned = collision.gameObject.GetComponent<Scannable>();
+            if (scanned == null)
+                return;
+
+            if (scanned.isScanned)
+            {
+                collision.transform.position = ScanningMachine.Instance.respawnPos.position;
+            }
+            else
+            {
+                collision.transform.position = ScanningMachine.Instance.startPos.position;
+            }
             // Reset the position of the Product to the respawn position
-            collision.transform.position = respawnPosition.position;
+            //collision.transform.position = respawnPosition.position;
         }
 
     }
