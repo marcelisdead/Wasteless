@@ -86,6 +86,7 @@ public class ScanningMachine : MonoBehaviour
     public void Bag()
     {
         gDisplay.ClearGallons();
+        presentables[currentScannable].gameObject.SetActive(false);
         EventOnBag.Invoke();
         NextItem();
     }
@@ -106,7 +107,7 @@ public class ScanningMachine : MonoBehaviour
 
     void EndPresentation()
     {
-        presentables[currentScannable].gameObject.SetActive(false);
+        
         isPresenting = false;
         bagCollider.gameObject.SetActive(true);
     }

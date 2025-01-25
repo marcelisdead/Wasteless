@@ -26,6 +26,9 @@ public class GroundCollisionHandler : MonoBehaviour
             {
                 collision.transform.position = ScanningMachine.Instance.startPos.position;
             }
+            collision.collider.attachedRigidbody.velocity = Vector3.zero;
+            collision.collider.attachedRigidbody.angularVelocity = Vector3.zero;
+
             // Reset the position of the Product to the respawn position
             //collision.transform.position = respawnPosition.position;
         }
