@@ -13072,6 +13072,7 @@ MonoBehaviour:
   speed: 6
   isMoving: 1
   forwardTransform: {fileID: 2086777807}
+  beltSound: {fileID: 0}
 --- !u!65 &2086777804
 BoxCollider:
   m_ObjectHideFlags: 0
