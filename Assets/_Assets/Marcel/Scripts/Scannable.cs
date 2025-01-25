@@ -7,14 +7,10 @@ public class Scannable : MonoBehaviour
 {
     public bool isScanned;
 
+    public int gallonsOfWater  = 1;
+
     public UnityEvent EventOnScan;
     public UnityEvent EventOnBag;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {

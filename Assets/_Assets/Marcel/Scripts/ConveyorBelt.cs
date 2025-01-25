@@ -8,7 +8,25 @@ public class ConveyorBelt : MonoBehaviour
     public float speed = 2.0f;
 	public bool isMoving = true;
 	public Transform forwardTransform;
-	
+    public AudioSource beltSound;
+
+
+    private void OnCollisionEnter(Collision col)
+    {
+        if (!isMoving || col.gameObject.tag != "Product")
+            return;
+
+        beltSound.Play();
+    }
+
+    private void OnCollisionExit(Collision col)
+    {
+        if (!isMoving || col.gameObject.tag != "Product")
+            return;
+
+        beltSound.Stop();
+    }
+
     void OnCollisionStay(Collision col)
     {
         if (!isMoving || col.gameObject.tag != "Product")
