@@ -29,7 +29,10 @@ public class GOActivator : MonoBehaviour
             objectsToActivate[i].SetActive(true);
             float curveTime = activationCurve.Evaluate((float)i / (count - 1)); // Get delay from curve
             float delay = totalTime * curveTime / count; // Scale by total time
+            objectsToActivate[i].transform.parent = null;
             yield return new WaitForSeconds(delay);
         }
+
+        
     }
 }
