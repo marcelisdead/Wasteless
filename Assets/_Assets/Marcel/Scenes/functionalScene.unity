@@ -1796,6 +1796,20 @@ MonoBehaviour:
               vitamins i've been eating more avocados.
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 566d76fec4d841a47819caf43d83c0c7,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I'm trying to take care of myself.  So to get more
+              vitamins i've been eating more avocados.
+            m_BoolArgument: 1
+          m_CallState: 2
   - time: 2
     Step:
       m_PersistentCalls:
@@ -2551,6 +2565,19 @@ MonoBehaviour:
             m_StringArgument: 'Are there better healthy options?  '
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 624b3460e39cc654283c565c305c4814,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Are there better healthy options?  '
+            m_BoolArgument: 1
+          m_CallState: 2
   - time: 2
     Step:
       m_PersistentCalls:
@@ -2578,6 +2605,19 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Yeah a salad is pretty good.  '
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 9bd8e7c2733a4104e87ae61b214638b6,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 'Yeah a salad is pretty good.  '
@@ -3790,6 +3830,10 @@ PrefabInstance:
         type: 3}
       insertIndex: 1
       addedObject: {fileID: 741696638}
+    - targetCorrespondingSourceObject: {fileID: 5923997274985596922, guid: f54012181eacade4ea242c65f804720f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2077597717}
     - targetCorrespondingSourceObject: {fileID: 238424321818482630, guid: f54012181eacade4ea242c65f804720f,
         type: 3}
       insertIndex: 1
@@ -6800,7 +6844,20 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Well anything is better a steak.
+            m_StringArgument: Well anything is better than a steak.
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: be8db3fed6c018449ace83924e4b80e2,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Well anything is better than a steak.
             m_BoolArgument: 1
           m_CallState: 2
   - time: 6
@@ -6879,7 +6936,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-  - time: 1.5
+  - time: 9
     Step:
       m_PersistentCalls:
         m_Calls:
@@ -6890,6 +6947,20 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: But we have to eat and so the other 8 billion people
+              on this planet. so what else can we do about this?
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 7b8af9ef9237e1346b8ab7922314757d,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: But we have to eat and so the other 8 billion people
@@ -7929,6 +8000,20 @@ MonoBehaviour:
               wasted the water used to grow it is also wasted.
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 207ce8ec75498a940b6e591aa8cc7934,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: We can get better at not wasting food when food is
+              wasted the water used to grow it is also wasted.
+            m_BoolArgument: 1
+          m_CallState: 2
   - time: 2
     Step:
       m_PersistentCalls:
@@ -8072,7 +8157,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000000059604645
+      value: 0.6330003
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -8082,7 +8167,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.1050003
+      value: 1.3750004
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -9532,6 +9617,20 @@ MonoBehaviour:
               filling snack.
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: b038e523aba5f8e4a8a5e0f6e6a10747,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: And i heard almonds are supposed to be a healthy and
+              filling snack.
+            m_BoolArgument: 1
+          m_CallState: 2
   - time: 3
     Step:
       m_PersistentCalls:
@@ -9559,6 +9658,19 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: woah that's worse.
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 387c480cbd502ca4180ae8a5415d2786,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: woah that's worse.
@@ -9596,7 +9708,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000000074505806
+      value: 0.6330003
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -9606,7 +9718,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6080005
+      value: 0.8780006
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -9832,15 +9944,19 @@ MonoBehaviour:
   - {fileID: 1841595489}
   - {fileID: 2124171268}
   - {fileID: 1386286073}
-  - {fileID: 1474879633}
   - {fileID: 760656308}
   - {fileID: 1366112102}
+  - {fileID: 1474879633}
   - {fileID: 895995763}
   presentables:
   - {fileID: 139741515}
   - {fileID: 841755274}
   - {fileID: 195480506}
   - {fileID: 461716322}
+  - {fileID: 2132323847}
+  - {fileID: 636071619}
+  - {fileID: 1699313205}
+  - {fileID: 1269687051}
   gDisplay: {fileID: 1546773080}
   currentScannable: 0
   EventOnScan:
@@ -14588,6 +14704,51 @@ MonoBehaviour:
               do that. '
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: c27aa3ef8f4f3174ca19109b997ebd81,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'the scale of the problems were facing can make us
+              feel like were drowning. But that would be a waste of water so dont
+              do that. '
+            m_BoolArgument: 1
+          m_CallState: 2
+  - time: 0
+    Step:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2091200336}
+          m_TargetAssemblyTypeName: InfoDisplay, Assembly-CSharp
+          m_MethodName: ClearInfo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'the scale of the problems were facing can make us
+              feel like were drowning. But that would be a waste of water so dont
+              do that. '
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 2091200336}
+          m_TargetAssemblyTypeName: InfoDisplay, Assembly-CSharp
+          m_MethodName: TopText
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Wasteless
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!4 &1269687052
 Transform:
   m_ObjectHideFlags: 0
@@ -16171,7 +16332,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000000074505806
+      value: 0.6330003
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -16181,7 +16342,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.15800047
+      value: 0.42800054
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -18928,6 +19089,21 @@ MonoBehaviour:
               new ones.
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 762a3f535a6b64048a2657bc95227d53,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: There are local and international initiatives for protecting
+              and restoring drinkable water we can support these and even push for
+              new ones.
+            m_BoolArgument: 1
+          m_CallState: 2
   - time: 2
     Step:
       m_PersistentCalls:
@@ -21184,7 +21360,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.633
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -21194,7 +21370,7 @@ PrefabInstance:
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.352
+      value: -0.082
       objectReference: {fileID: 0}
     - target: {fileID: 8766889523554357056, guid: 312f1318939bf19429cb9577e66bd2e9,
         type: 3}
@@ -23377,6 +23553,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076758128}
   m_CullTransparentMesh: 1
+--- !u!1 &2077597714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5923997274985596922, guid: f54012181eacade4ea242c65f804720f,
+    type: 3}
+  m_PrefabInstance: {fileID: 240845334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2077597717
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077597714}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2080226200
 GameObject:
   m_ObjectHideFlags: 0
@@ -24884,6 +25162,20 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: We can replace grass lawn with water-wise alternatives
+              and collectively push those wasting the most to decrease use.
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 2077597717}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 8005660584b624747aecd2127b369903,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: We can get better at not wasting food when food is

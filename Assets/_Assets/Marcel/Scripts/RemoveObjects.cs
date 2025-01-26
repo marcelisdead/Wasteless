@@ -11,7 +11,7 @@ public class Remove : MonoBehaviour
     public void Remove1() {
         foreach(var a in remove1)
         {
-            gameObject.SetActive(false);
+            a.SetActive(false);
         }
     }
 
@@ -19,7 +19,7 @@ public class Remove : MonoBehaviour
     {
         foreach (var b in remove2)
         {
-            gameObject.SetActive(false);
+            b.SetActive(false);
         }
     }
 
@@ -27,7 +27,7 @@ public class Remove : MonoBehaviour
     {
         foreach (var c in remove3)
         {
-            gameObject.SetActive(false);
+            c.SetActive(false);
         }
     }
 
