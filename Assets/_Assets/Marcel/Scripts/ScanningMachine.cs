@@ -18,9 +18,14 @@ public class ScanningMachine : MonoBehaviour
     public UnityEvent EventOnScan;
     public UnityEvent EventOnBag;
 
+    public AudioSource ableAppearSound;
 
     public bool isPresenting;
     public float timeLeft;
+
+    public AudioSource warningAudioSource;
+    public AudioClip scanWarningSound;
+    public AudioClip bagWarningSound;
 
     public static ScanningMachine Instance;
     private void Awake()
@@ -48,6 +53,7 @@ public class ScanningMachine : MonoBehaviour
         }
         scannables[0].transform.position = startPos.position;
         scannables[0].gameObject.SetActive(true);
+        ableAppearSound.Play();
 
         scanCollider.gameObject.SetActive(true);
         bagCollider.gameObject.SetActive(false);
