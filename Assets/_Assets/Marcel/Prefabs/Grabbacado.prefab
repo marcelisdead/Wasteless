@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6089845609238035556}
   - component: {fileID: 5453599734267201317}
   - component: {fileID: -4422904385596505583}
-  - component: {fileID: 1420858240679956676}
   - component: {fileID: 312681028274659965}
   m_Layer: 0
   m_Name: Grabbacado
@@ -75,14 +74,6 @@ MonoBehaviour:
   EventOnBag:
     m_PersistentCalls:
       m_Calls: []
---- !u!33 &1420858240679956676
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2941444279446897435}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &312681028274659965
 Rigidbody:
   m_ObjectHideFlags: 0
